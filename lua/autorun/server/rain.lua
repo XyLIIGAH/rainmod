@@ -1,7 +1,7 @@
 if SERVER then
     AddCSLuaFile()
 
-    -- Список моделей пропов для спавна, включая взрывоопасные и новые объекты
+    -- Список моделей пропов для спавна start_proprain
     local propModels = {
         "models/props_junk/wood_crate001a.mdl", -- Деревянный ящик
         "models/props_junk/metal_paintcan001a.mdl", -- Банка краски
@@ -12,7 +12,7 @@ if SERVER then
         "models/props_c17/canister02a.mdl", -- Канистра
         "models/props_junk/gascan001a.mdl", -- Бензиновая канистра
         "models/props_c17/oildrum001_explosive.mdl", -- Взрывоопасная бочка
-        "models/props_phx/misc/potato_launcher_explosive.mdl", -- Взрывоопасный объект
+        "models/props_phx/misc/potato_launcher_explosive.mdl", -- Что-то взрывоопасное
         "models/props_junk/CinderBlock01a.mdl", -- Кирпич/бетонный блок
         "models/props_c17/tv_monitor01.mdl", -- Телевизор
         "models/props_lab/monitor02.mdl", -- Компьютерный монитор
